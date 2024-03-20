@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+     <style>
+      body{
+        overflow-x: hidden;
+      }
+        nav{
+            height:100px;
+        }
+
+        .nav-item {
+            margin-left: 30px;
+        }
+
+        .collapse{
+            margin-left: 700px;
+        }
+
+        .head{
+            margin-top: 30px;
+            margin-left: 400px;
+        
+        }
+
+        .head1{
+            margin-top: 20px;
+            margin-left: 600px;
+        }
+
+        .card{
+            margin-top: 30px;
+            margin-left: 200px;
+        }
+
+        .cd{
+          margin-top: -280px;
+          margin-left: 300px;
+         
+        }
+
+        .card3{
+          margin-top: -280px;
+          margin-left: 600px;
+        }
+
+        .instrument{
+          margin-left: 400px;
+          color: maroon;
+        }
+
+        .instr{
+          margin-left: 570px;
+          color: maroon;
+        }
+
+        .mode{
+          margin-left: 500px;
+        }
+        .mode h3{
+          color: maroon;
+        }
+
+        .mode p{
+          margin-left: 50px;
+        }
+
+        .modebotn{
+          margin-left: 100px;
+        }
+
+        .foot{
+        background-color: black;
+        height: 150px;
+        width:1600px;
+        margin-left: -20px;
+        margin-top: 50px;
+    }
+
+    .foot p{
+        color: white;
+        padding-left: 500px;
+        padding-top: 60px;
+        margin-left: 50px;
+    }
+
+        .foot img{
+        float: left;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    
+     </style>
+
+    </head>
+<body>
+
+  <div class="fixed-top">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#"><img src="https://www.bensound.com/catalog/view/theme/next/image/bensound-logo.svg"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <!-- nav-tabs for making the underline below home about etc.. -->
+            <ul class="navbar-nav nav-tabs">
+              <li class="nav-item">
+                <!-- toggle is tool tip to show the purpose of link while hovering -->
+                <a class="nav-link data-bs-toggle="tooltip data-bs-placement="top" title="Home" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link data-bs-toggle="tooltip data-bs-placement="top" title="About" href="">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link data-bs-toggle="tooltip data-bs-placement="top" title="Contact" href="#info">Contact</a>
+              </li>  
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Search</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Insights</a></li>
+                  <li><a class="dropdown-item" href="#">Careers</a></li>
+                  <li><a class="dropdown-item" href="#">Services</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+      
+        
+        <div class="image"><img src="https://pianoo.de/app/uploads/2019/08/vst-host-programm-piano-spielen.jpg" alt="" height="650px" width="1600px"></div>
+        <div class="h1 head  ">Get Into The World Of Music!! </div>
+
+        <div class="container mt-3">
+          <h2 class="text-danger">Sign In</h2>
+          <div class="alert alert-danger">
+            <strong>Mandatory!</strong>Please Sign In Before Reaching Into site.
+          </div>
+          <form action="/action_page.php">
+            <div class="mb-3 mt-3">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+            </div>
+           
+            <div class="mb-3">
+              <label for="pwd">Password:</label>
+              <input type="password" class="form-control" id="pwd" placeholder="Enter Password" name="pswd">
+            </div>
+
+            <div class="form-check mb-3">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember"> Remember me
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary ">Submit</button>
+          </form>
+        </div>
+
+        
+       <!-- Badges -->
+        <div class="h1 instrument">Know About Our New <span class="badge bg-success">Offers!</span></div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2mmyYmkO7LWqtY-ZnoGkDtEE5GxiUiz3HVw&usqp=CAU" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <a href="#"  class="btn btn-primary " data-toggle="popover" data-placement="top" data-content="Info">More Info</a>
+          </div>
+        </div>
+          
+        <div class="cd">
+        <div class="card" style="width:18rem">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5GNuYlQkNvtIqDiHKZ2DWsIMCgeov25apVQ&usqp=CAU" class="card-img-top" alt="" height="160px">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text"></p>
+          <a href="#" class="btn btn-primary" >More Info</a>
+        </div>
+        </div>
+      </div>
+      
+<div class="card3">
+        <div class="card" style="width:18rem">
+        <img src="./images.jpg" class="card-img-top" alt="" height="160px">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text"></p>
+          <a href="#" class="btn btn-primary" >More Info</a>
+        </div>
+        </div>
+      </div>
+    </div>
+
+      
+    <div class="container-fluid mt-3">
+      <h1 class="instr">Instruments</h1>
+      <p class="text-danger">Note:Instuments without providing offers </p>
+      <div class="row">
+        <div class="col p-3 bg-secondary text-white">Violin</div>
+        <div class="col p-3 bg-dark text-white">Flute</div>
+        <div class="col p-3 bg-secondary text-white">saxophone</div>
+      </div>
+
+      <div class="row">
+        <div class="col p-3 bg-dark text-white">Clarenet</div>
+        <div class="col p-3 bg-secondary text-white">Cello</div>
+        <div class="col p-3 bg-dark text-white">Trumpet</div>
+      </div>
+
+      <div class="row">
+        <div class="col p-3 bg-secondary text-white">Drums</div>
+        <div class="col p-3 bg-dark text-white">Piano</div>
+        <div class="col p-3 bg-secondary text-white">Guitar</div>
+      </div>
+    </div>
+
+
+    <div class="container mt-3 mode">
+      <h3>Upcoming Events & Location</h3>
+      <p>Click on the button for more Info</p>
+      
+      <button type="button" class="btn btn-primary modebotn" data-bs-toggle="modal" data-bs-target="#myModal">
+        Click Here
+      </button>
+    </div>
+    
+    
+    <div class="modal" id="myModal">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+    
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">DJ Night With Fejo</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            @ Palarivattom, Ernakulam
+          </div>
+    
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact" id="info">
+    <h3>Contact info</h3>
+    <p>Email:bensound@gmail.com</p>
+    </div>
+
+    <!-- <div class="container">
+      <h3>Popover Example</h3>
+      <ul class="list-inline">
+        <li><a href="#" title="Header" data-toggle="popover" data-placement="top" data-content="Content">Top</a></li>
+        <li><a href="#" title="Header" data-toggle="popover" data-placement="bottom" data-content="Content">Bottom</a></li>
+        <li><a href="#" title="Header" data-toggle="popover" data-placement="left" data-content="Content">Left</a></li>
+        <li><a href="#" title="Header" data-toggle="popover" data-placement="right" data-content="Content">Right</a></li>
+      </ul>
+    </div> -->
+
+    <footer>
+      <div class="foot">
+        <img src="https://www.bensound.com/catalog/view/theme/next/image/bensound-logo.svg">
+        
+<p>©2024 bensouund, All Rights Reserved.</p>
+    </div>
+    </footer>
+    
+</body>
+</html>
